@@ -132,6 +132,12 @@ body{
   
 }
 
+/* project */
+
+
+
+
+
 .about .btn{
     color: #2a305e;
     font-family: initial;
@@ -197,10 +203,14 @@ body{
 
 @media only screen and (max-width: 600px) {
 
-  .chairman-img img{
-    height: 300px;
+ 
+  .about .col-lg-6 h2{
+    margin-top: 31px;
+  }
+  
+  .project_image img{
 
-
+    width: 300px;
   }
 
   .navbar-brand h4{

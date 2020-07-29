@@ -123,14 +123,25 @@
   </div>
 
 
+  <!-- about section -- -->
 
   <section id="about">
     <div class="about row">
-
-
-      <div class="chairman-img col-lg-6">
-        <img src="images/sahid.jfif" alt="chairman">
+      <div class="project col-lg-6">
+        <div class="project__card">
+          <a href="" class="project__image"><img src="images/sahid.jfif" width="400px" height="400px" alt=""></a>
+          <div class="project__detail">
+            <h2 class="project__title"><a href="#">Dr.Sahid Cholayil</a></h2>
+            <small class="project__category"><a href="#">Founder And Director Of Bisedu Business School</a></small>
+          </div>
+        </div>
       </div>
+
+
+      <!-- 
+      <div class="chairman-img project__card col-lg-6">
+      </div>
+      </div> -->
 
       <div class="col-lg-6">
         <h2>Bisedu Business School</h2>
@@ -607,11 +618,10 @@
     crossorigin="anonymous"></script>
 
   <!-- type.js -->
-  <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/typeit/7.0.4/typeit.min.js"
-    integrity="sha512-8n76hXrEZEjWeAITXGVFTfxFAXZpj4+waRLRktraeC2Yq/2PuvmtM6Fft5ce0ifobSCCuIwjGSYMI38UfJpiSw=="
-    crossorigin="anonymous"></script> -->
 
-    <script src="Counter-Up-master/typed.js"></script>
+
+  <script src="Counter-Up-master/typed.js"></script>
+  <script src="Counter-Up-master/jquery.hover3d.js"></script>
 
   <script>
     $('.counter').counterUp({
@@ -625,6 +635,13 @@
       backSpeed: 60,
       loop: true
 
+
+    });
+
+    $(".project").hover3d({
+      selector: ".project__card",
+      shine: true,
+      sensitivity: 20,
 
     });
 
