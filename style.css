@@ -207,10 +207,13 @@ body{
   .about .col-lg-6 h2{
     margin-top: 31px;
   }
-  
-  .project_image img{
 
-    width: 300px;
+  .project__image img{
+
+    
+    width: 350px;
+    padding: 12px;
+
   }
 
   .navbar-brand h4{
