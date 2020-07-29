@@ -287,6 +287,10 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
     color: #fff;
 
 }
+.programs .row .col-lg-6 p{
+
+  font-size: 20px;
+}
 
 .programs .row .col-lg-6:hover{
   background-color:#2C5364 ;
