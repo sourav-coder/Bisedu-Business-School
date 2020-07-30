@@ -201,6 +201,8 @@ body{
 
 
 
+/* responsive --- */
+
 @media only screen and (max-width: 600px) {
 
  
@@ -337,6 +339,9 @@ background: linear-gradient(to right, #2C5364, #203A43, #0F2027); /* W3C, IE 10+
   padding: 25px;
 }
 
+q{
+  font-size: 20px;
+}
 
 
 #experts .row .col-lg-6 .linkedin{
@@ -476,6 +481,11 @@ background: linear-gradient(to right, #F56217, #0B486B) ; /* W3C, IE 10+/ Edge, 
   margin-right: 20px;
 
 
+}
+
+h5{
+
+  color: #eee;
 }
 
 #footer .container{
